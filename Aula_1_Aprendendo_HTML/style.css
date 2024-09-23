@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: rgb(120, 126, 142);
+    font-family: "Chakra Petch", sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 21, 114);
+    margin-top: 0;
+    margin-left: auto;
+}
+
+nav {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: red;
+}
+
+header {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: rgb(71, 21, 114);
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.content{
+    font-size: 13px;
+    color: green;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+input {
+    border: none;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    color: #000000;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.div_pesquisa {
+    margin-left: auto;
+    margin-right: 10px;
+    border-style: ridge;
+    background-color: transparent;
+    width: auto;
+    height: 30px;
+    border-style: groove;
+    border-radius: 1.5rem;
+    align-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-style: none;
+}
+
+.btn{
+    background-color: transparent;
+    border-style: none;
+}
+
+.item-resultado {
+    background: #FFFFFF; 
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+.item-resultado h2 {
+    font-size: 1.5rem; 
+    color: #00bf63; 
+}
+
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #30475E; 
+}
+
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
+
+.container {
+    display: flex; /* Transforma o container em um flex container */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-left: 10px;
+}
+
+.caixa {
+    width: 780px;
+    height: 600px;
+    background-color: #d3ccccdd;
+    border: none;
+    margin-right: auto;
+    justify-self: left;
+}

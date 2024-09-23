@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #DDDD;
+    font-family: "Chakra Petch", sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: #DDDD;
+    margin-top: 0;
+    margin-left: auto;
+}
+
+nav {
+    color: white;
+    overflow: hidden;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: red;
+}
+
+header {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #DDDD;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.content{
+    font-size: 13px;
+    color: green;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.btn{
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #00bf63; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+
+
+.item-resultado a:hover {
+    text-decoration: underline; 
+}
+
